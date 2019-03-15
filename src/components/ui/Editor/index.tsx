@@ -49,6 +49,7 @@ const Wrapper = styled('div')`
   width: 100%;
   border: 1px solid ${get('colors.border')};
   border-radius: ${get('radii')};
+  z-index: 0; /* fix navbar / sidebar overlay bug */
 `
 
 const Scrollbar = styled(PerfectScrollbar)`
