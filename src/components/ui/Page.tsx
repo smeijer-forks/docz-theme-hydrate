@@ -41,9 +41,7 @@ const fullContainerStyles = css`
 export const Container = styled('div')`
   box-sizing: border-box;
   margin: 0 auto;
-  & h1:first-of-type {
-    margin: -40px -40px 0;
-  }
+
   ${(p: HydratePageProps) => p.fullcontainer && fullContainerStyles}
 `
 
